@@ -12,4 +12,14 @@
             $scope.name = upCase($scope.name);
         };
     }
+
+    function AnnonateMe(name, job, blah) {
+        return "Blah";
+    }
+
+    // console.log(AnnonateMe());
+    // console.log(AnnonateMe);
+    // console.log(AnnonateMe.toString());
+    console.log(DIController.toString());
+
 })();
